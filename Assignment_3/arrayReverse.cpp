@@ -3,7 +3,7 @@ using namespace std;
 
 
 void reverseArr(int *arr,int n){
-    inn s = 0;
+    int s = 0;
     int e = n-1;
     while (s<e)
     {
@@ -13,12 +13,12 @@ void reverseArr(int *arr,int n){
 
 }
 
-void reverseStr(string &s){
-    inn s = 0;
-    int e = s.size()-1;
+void reverseStr(string &str){
+    int s = 0;
+    int e = str.size()-1;
     while (s<e)
     {
-        swap(s[s],s[e]);
+        swap(str[s],str[e]);
     }
     
 
@@ -34,7 +34,7 @@ int main(){
     }
     reverseArr(arr,n);
     for(auto x : arr){
-        cout<<x<<<" ";
+        cout<<x<<" ";
     }
     string s;
     cin>>s;
