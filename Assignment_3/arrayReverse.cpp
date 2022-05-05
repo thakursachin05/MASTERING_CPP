@@ -8,6 +8,8 @@ void reverseArr(int *arr,int n){
     while (s<e)
     {
         swap(arr[s],arr[e]);
+        s++;
+        e--;
     }
     
 
@@ -19,6 +21,8 @@ void reverseStr(string &str){
     while (s<e)
     {
         swap(str[s],str[e]);
+        s++;
+        e--;
     }
     
 
