@@ -4,11 +4,11 @@ using namespace std;
 
 void ap(int a,int d,int n){
     int term = 0;
-    int i = 0;
+    int currTerm = a;
   while (term <= n)
   {
-      cout<<a + i*d<<" ";  
-      i++;
+      cout<<currTerm<<" ";  
+      currTerm+=d;
       term++;
       
       }
