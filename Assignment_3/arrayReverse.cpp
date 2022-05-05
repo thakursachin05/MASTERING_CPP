@@ -40,6 +40,7 @@ int main(){
     for(auto x : arr){
         cout<<x<<" ";
     }
+    cout<<endl;
     string s;
     cin>>s;
     reverseStr(s);
