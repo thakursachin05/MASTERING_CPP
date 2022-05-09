@@ -42,7 +42,7 @@ vector<vector<int>> takeInput(int n,int m){
 void print(vector<vector<int>> matrix){
     for(int i=0;i<matrix.size();i++){
         for(int j=0;j<matrix[0].size();j++){
-            cout<<c[i][j]<<" ";
+            cout<<matrix[i][j]<<" ";
         }
         cout<<endl;
     }
