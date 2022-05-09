@@ -39,6 +39,15 @@ vector<vector<int>> takeInput(int n,int m){
     return output;
 }
 
+void print(vector<vector<int>> matrix){
+    for(int i=0;i<matrix.size();i++){
+        for(int j=0;j<matrix[0].size();j++){
+            cout<<c[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 int main(){
     int n,m;
     cin>>n>>m;
@@ -48,10 +57,6 @@ int main(){
     vector<vector<int>> b = takeInput(n1,m1);
 
     vector<vector<int>> c = multiplication(a,b);
-    for(int i=0;i<c.size();i++){
-        for(int j=0;j<c[0].size();j++){
-            cout<<c[i][j]<<" ";
-        }
-        cout<<endl;
-    }
+    print(c);
+    
 }
