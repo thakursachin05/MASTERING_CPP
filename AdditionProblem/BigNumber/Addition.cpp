@@ -1,3 +1,6 @@
+// Program to demonstrate addition of big numbers
+// That cannot be stored in int or any data type , we have to use string for them
+
 #include<iostream>
 #include<string>
 #include<algorithm>
