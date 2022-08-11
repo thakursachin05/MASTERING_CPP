@@ -1,3 +1,5 @@
+// JavaScript Code for Nagaro Question equal conatiner array
+
 let arr = []; //Given
 let n ; // Given
 
