@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/unbounded-knapsack/problem
+// Hackerrank - Knapsack
+
 #include <bits/stdc++.h>
 
 using namespace std;
