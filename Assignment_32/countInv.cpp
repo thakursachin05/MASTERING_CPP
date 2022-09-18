@@ -1,3 +1,7 @@
+// https://www.hackerrank.com/challenges/ctci-merge-sort/problem
+// Merge Sort: Counting Inversions
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
