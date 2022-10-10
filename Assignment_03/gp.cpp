@@ -1,3 +1,5 @@
+// program to print a geometric progression series 
+
 #include<bits/stdc++.h>
 using namespace std;
 
