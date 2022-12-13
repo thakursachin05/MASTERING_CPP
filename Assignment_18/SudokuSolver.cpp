@@ -4,6 +4,9 @@
 class Solution {
 public:
     bool canBe(int row,int col,char a,vector<vector<char>> &board){
+        
+        // optimized way to find the if we can place the character there or not
+        
         for(int i=0;i<9;i++){
             if(board[row][i]==a) return false;
             if(board[i][col]==a) return false;
