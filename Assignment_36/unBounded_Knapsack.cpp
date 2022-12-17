@@ -11,6 +11,8 @@ int f(int i,int  n,int k,vector<int> &arr){
     if(i==n) return 0;
     if(k<=0) return 0;
     if(dp[i][k]!=-1) return dp[i][k];
+    
+    //either we can take current element and stay on the same index or we can move forward without considering current element;
     if(arr[i]<=k){
         return dp[i][k] =  max(arr[i] + f(i,n,k-arr[i],arr),f(i+1,n,k,arr));
 }
