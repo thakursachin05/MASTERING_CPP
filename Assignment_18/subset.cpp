@@ -8,8 +8,10 @@ public:
             res.push_back(ans);
             return;
         }
-        
+        // Not take case
         subset(ans,res,st+1,nums);
+        
+        // take case  
         ans.push_back(nums[st]);
         subset(ans,res,st+1,nums);
         ans.pop_back();
