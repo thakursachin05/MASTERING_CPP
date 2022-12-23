@@ -1,5 +1,4 @@
 //https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true
-// HackerRank Problem MINIMUM DISTANCES
 
 
 #include <bits/stdc++.h>
