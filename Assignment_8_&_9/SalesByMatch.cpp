@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/sock-merchant/
-// Sales By Match
+// hackerrank problem Sales By Match
 
 
 
