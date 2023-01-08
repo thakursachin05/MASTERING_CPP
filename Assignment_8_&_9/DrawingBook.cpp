@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/drawing-book/
-// Drawing Book
+// Hackerrank problem Drawing Book
 
 
 #include <bits/stdc++.h>

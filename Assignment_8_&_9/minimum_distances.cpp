@@ -1,5 +1,5 @@
-//https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true
-
+// https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true
+// Minimum Distances
 
 #include <bits/stdc++.h>
 
